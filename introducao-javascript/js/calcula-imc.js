@@ -45,11 +45,11 @@ function validaPeso(peso){
   }
 }
 
-function validaAltura (altura){
-  if (altura >= 0 && altura <= 3.0){
-    return true;
+function validaAltura(altura) {
+  if (altura >= 0 && altura <= 3.0) {
+      return true;
   } else {
-    return false;
+      return false;
   }
 }
 
